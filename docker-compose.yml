@@ -34,6 +34,8 @@ services:
     volumes: # mysqlのテーブルやらなんやらを保存する
       - ./docker/mysql/db:/var/lib/mysql
       - ./docker/mysql:/docker-entrypoint-initdb.d
+      # initsqlとmycnf
+      # - ./initdb.d:/docker-entrypoint-initdb.d
   # PHPMyAdminサーバー
   phpmyadmin: # デフォルトのままで不都合ないのでDockerHubにあるイメージをそのまま使う
     image: phpmyadmin/phpmyadmin:latest

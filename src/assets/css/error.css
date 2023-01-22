@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.header-logo{
+  display: flex;
+}
+.header-logo__img{
+  padding: 25px;
+}
+.header-logo__p{
+  padding: 15px;
+  color:rgb(149, 149, 216)
+}
+
+.error-question{
+  background-color: rgb(240, 240, 240);
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.error-question>h2{
+  color: rgb(238, 169, 85);
+}
+.error__background{
+  background-color: rgb(238, 169, 85);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+.error__background>p{
+  color: white;
+  font-size: 65px;
+  padding: 5%;
+  margin:0;
+}
+#js-language_chart_ul{
+  margin: 20px;
+  font-size: 15px;
+}
+#js-contents_chart_ul{
+  margin: 20px;
+  font-size: 15px;
+}
